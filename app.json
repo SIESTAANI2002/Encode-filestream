@@ -1,0 +1,17 @@
+{
+  "name": "AnimeToki_Stream",
+  "description": "Telegram Anime Bot with Docker",
+  "repository": "https://github.com/SIESTAANI2002/allinone",
+  "stack": "container",
+  "env": {
+    "ENV": {
+      "description": "System Environment",
+      "value": "True"
+    }
+  },
+  "build": {
+    "docker": {
+      "web": "Dockerfile"
+    }
+  }
+}
