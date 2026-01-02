@@ -92,17 +92,7 @@ class Var:
     R2_DOMAIN = getenv("R2_DOMAIN", "")
     
     SERVICE_ACCOUNT_JSON = {
-        "type": "service_account",
-        "project_id": "elegant-wavelet-410807",
-        "private_key_id": "c7c9c8d92e9da3b61741ab0bbf0c2108a05b968f",
-        "private_key": "-----BEGIN PRIVATE KEY-----\\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCsiEgLRuFjy3s/\\nwOjxyBAtxXk5QlKtMV/ogxN6BFvw7rSY/7xYFPxPHqdbQg5q3oUtUHEvefn5dNy8\\nNoCYSzFrPzzUL3Oo7RP6bRZgwACLKZIPgJC2l1oJSUWpKAYtXEUgUTlXQe95Wdo5\\nv4sI//za82R72Ksh28LAS1+oxjiCWzPnDqE5fg4HVMBWXFWQm5SjOcwRSaIU1Ena\\nHnYyPXwoYk5K4MirSaYGke6k82R7vH4mkzpyAR4/WyK3+LIxs2Pq5dMadk+t89z9\\ngy3yTg9YP2SHjXSCPp7tlJxEzjj6zmD6pCQxg5e2tLYv5lTX+t2RDQk9O6vsx/3v\\nQH00ApLpAgMBAAECggEAF1s7pYsq5/+b572Ny21yA0BAcOfxmVCd0zQrZtFAQRWP\\njUbRkHsGzQ8xSMFggkctcDz7lZnFpWeUmkYmkndbcVFWQsNJvQybL8Oky+QyLqSq\\nCT82WAGVRryMmaG5dFqRYRad1JoweRUY3ch4YfeFm35nk/x47lR5wN5zTL3I2JyW\\nmx9BmR5ZcrNbs54NQHxFYWddPDw3Zh2/OJnA/fiyJWjw2c7xP3tN6b2XZX23S0oY\\n9QOl5btBeawnBcqbvIId//7LNDOvxrWaBwYL44obBiOBiNroMbMXd6yZTug7c3Ge\\naAsM/yOsLuUa+AYXaDrfysItbH0ilmpK9Y5f5e8jIQKBgQDzuOYRiSGM4SH1jd54\\n5zDgkJyudl591mvrScT9noBHr535EvaGdC+4tJeJZSsdVLs51D8QmukilcUnbI4V\\neuUGvlJzM6TpZtf4GEWLZub2vxK8P3ptN7xYuh8cE+rT67BtB5SBUwFb+OjCSa8M\\n5p0PNbBNN38e9Al8Rh+A8Kkh9wKBgQC1OUzlx+iMqS0RN++j6u5XzerykLhAkdKh\\nyRuPcCQn1I02cAPLJeNLID8nEIsyzz8CU8/PFLG+lC+zN4RsCFqkNiHwyCYAo8A6\\n3WPev2Y21MXxj/fCXkQlHH0XDukZAdAbX/mPpXjnaUXIH27t9tc5/vhQfXfJlGtd\\nbGE7Y3a6HwKBgQDx7RIDShoRm9B3zRGO9f6giyvcSgdV5ihN8HYoQtOXVQ38lgQ8\\nRsywDiN18QSxItCOgM7xDrRo7j47+he33rvEy9tQG22RedLbpEw0KjsNp3FTh7dg\\n/rhpYqdK2cJ6BjSkpaeWD+0DfLqfUUEAD1LMLEELBRGciiV4RKs09K8O1QKBgQCi\\ng68tBJfLxE6w+TuDAMQao4PFYPiKlvqPsTxw5jzWJys3nT4ZqHFrRpC7pH9f4jB8\\nEtLxvnojENqx2eB7zQYT6qOHPMWvnylc4HqWH4g3NZoJJXUmrchoi2K2Ed4BWfnZ\\nArlXEyoYQ/SbIW0mI00hKkBeVhXdBKc/kViknG61OwKBgAFLZiRFQLpl39AAccDc\\nZnW/r9hPQSLF/AbvLT44MdhDd/Le69pvAWb8ZhMaos3XBQUUgivUYWEg6vCWJAmp\\nLkuiLkXCXkDuzT+uczUKRq26H1oXMJGfgkSOI4dwndrtuNE++hsrdKGz9DUs8RkQ\\nu8nIiPLB7CNIwsfdpCJ4UR5T\\n-----END PRIVATE KEY-----\\n",
-        "client_email": "mfc--btd6m2b8qj9l3w63izvt3y04e@elegant-wavelet-410807.iam.gserviceaccount.com",
-        "client_id": "103084241973221581645",
-        "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-        "token_uri": "https://oauth2.googleapis.com/token",
-        "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-        "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/mfc--btd6m2b8qj9l3w63izvt3y04e@elegant-wavelet-410807.iam.gserviceaccount.com",
-        "universe_domain": "googleapis.com"
+        
     }
     _sa_json_str = getenv("SERVICE_ACCOUNT_JSON")
     if _sa_json_str:
